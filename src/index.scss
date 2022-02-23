@@ -1,0 +1,78 @@
+// PrimeReact CSS
+@import "~primereact/resources/themes/md-light-indigo/theme.css";
+@import "~primereact/resources/primereact.min.css";
+@import "~primeicons/primeicons.css";
+
+// Menu Landing Page
+.menu-modules {
+  border: 3px solid var(--surface-border);
+  border-radius: 100px;
+  border-color: white;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu-row-modules {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-modules .module-title {
+  font-size: 1.3rem;
+}
+
+.menu-grid-square {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.menu-grid-square .menu-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.menu-grid-circle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.menu-grid-circle .menu-title {
+  font-size: 1.2rem;
+}
+
+.menu-grid-circle .menu-img {
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.menu-list {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.menu-list .menu-card {
+  border-radius: 100px;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: 4rem;
+}
+
+.menu-list .menu-card .menu-content {
+  padding: 0;
+}
+
+.menu-list .menu-card .menu-content .menu-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
